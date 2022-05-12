@@ -1,9 +1,11 @@
 import React, {Suspense, useContext} from "react";
+import {LinkedInEmbed} from "react-social-media-embed";
 import "./twitter.scss";
 import Loading from "../loading/Loading";
 import {TwitterTimelineEmbed} from "react-twitter-embed";
 import {twitterDetails} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import linkedinLogo from "../../assets/images/linkedin-logo.png";
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =
@@ -17,6 +19,7 @@ function timeOut() {
   }, 10000);
 }
 var widthScreen = window.screen.width;
+var heightScreen = window.screen.height;
 
 export default function Twitter() {
   const {isDark} = useContext(StyleContext);
@@ -31,18 +34,21 @@ export default function Twitter() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="tw-main-div" id="twitter">
+          <img
+            style={{
+              padding: "1rem",
+              width: 180,
+              height: 70
+            }}
+            src={linkedinLogo}
+            alt="linkedin"
+          />
           <div className="centerContent">
-            <TwitterTimelineEmbed
-              sourceType="profile"
-              screenName={twitterDetails.userName}
-              options={{height: 400, width: {widthScreen}}}
-              placeholder={renderLoader()}
-              autoHeight={false}
-              borderColor="#fff"
-              key={isDark ? "1" : "2"}
-              theme={isDark ? "dark" : "light"}
-              noFooter={true}
-              onload={timeOut()}
+            <LinkedInEmbed
+              url="https://www.linkedin.com/embed/feed/update/urn:li:share:6859841319351783424"
+              postUrl="https://www.linkedin.com/posts/kwickpos_dreamteam-team-grateful-activity-6859841319808962560-CWqW?utm_source=linkedin_share&utm_medium=member_desktop_web"
+              width={widthScreen / 2.1}
+              height={heightScreen / 2}
             />
           </div>
         </div>
