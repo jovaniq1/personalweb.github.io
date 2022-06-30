@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.e1c7b5ca.chunk.css",
-    "main.js": "/static/js/main.18e92278.chunk.js",
-    "main.js.map": "/static/js/main.18e92278.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.529446c6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.529446c6.js.map",
-    "static/js/2.2dd61fae.chunk.js": "/static/js/2.2dd61fae.chunk.js",
-    "static/js/2.2dd61fae.chunk.js.map": "/static/js/2.2dd61fae.chunk.js.map",
+    "main.js": "/static/js/main.265741e3.chunk.js",
+    "main.js.map": "/static/js/main.265741e3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fbca535d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fbca535d.js.map",
+    "static/js/2.b8d7cff3.chunk.js": "/static/js/2.b8d7cff3.chunk.js",
+    "static/js/2.b8d7cff3.chunk.js.map": "/static/js/2.b8d7cff3.chunk.js.map",
     "static/css/3.a58369a0.chunk.css": "/static/css/3.a58369a0.chunk.css",
-    "static/js/3.d9ac518f.chunk.js": "/static/js/3.d9ac518f.chunk.js",
-    "static/js/3.d9ac518f.chunk.js.map": "/static/js/3.d9ac518f.chunk.js.map",
+    "static/js/3.15a1206e.chunk.js": "/static/js/3.15a1206e.chunk.js",
+    "static/js/3.15a1206e.chunk.js.map": "/static/js/3.15a1206e.chunk.js.map",
     "static/css/4.1bee7c9f.chunk.css": "/static/css/4.1bee7c9f.chunk.css",
-    "static/js/4.913cda49.chunk.js": "/static/js/4.913cda49.chunk.js",
-    "static/js/4.913cda49.chunk.js.map": "/static/js/4.913cda49.chunk.js.map",
+    "static/js/4.9e075103.chunk.js": "/static/js/4.9e075103.chunk.js",
+    "static/js/4.9e075103.chunk.js.map": "/static/js/4.9e075103.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c90c0aa702c12c8d5d5a78324752b5a0.js": "/precache-manifest.c90c0aa702c12c8d5d5a78324752b5a0.js",
+    "precache-manifest.835870487abeb6e96a9d875cc05e06b4.js": "/precache-manifest.835870487abeb6e96a9d875cc05e06b4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.a58369a0.chunk.css.map": "/static/css/3.a58369a0.chunk.css.map",
     "static/css/4.1bee7c9f.chunk.css.map": "/static/css/4.1bee7c9f.chunk.css.map",
     "static/css/main.e1c7b5ca.chunk.css.map": "/static/css/main.e1c7b5ca.chunk.css.map",
-    "static/js/2.2dd61fae.chunk.js.LICENSE.txt": "/static/js/2.2dd61fae.chunk.js.LICENSE.txt",
+    "static/js/2.b8d7cff3.chunk.js.LICENSE.txt": "/static/js/2.b8d7cff3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/SpaceGrotesk-VariableFont_wght.51a44c95.ttf",
     "static/media/a.svg": "/static/media/a.b1a6b992.svg",
     "static/media/booking.png": "/static/media/booking.5a7120fa.png",
@@ -36,9 +36,9 @@
     "static/media/uh-logo.png": "/static/media/uh-logo.e835d1db.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.529446c6.js",
-    "static/js/2.2dd61fae.chunk.js",
+    "static/js/runtime-main.fbca535d.js",
+    "static/js/2.b8d7cff3.chunk.js",
     "static/css/main.e1c7b5ca.chunk.css",
-    "static/js/main.18e92278.chunk.js"
+    "static/js/main.265741e3.chunk.js"
   ]
 }
