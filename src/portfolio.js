@@ -23,7 +23,7 @@ const greeting = {
   username: "Jovani-Casarrubias",
   title: "Hi all, I'm Jovani",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having experience in building Web and Mobile applications with JavaScript / Reactjs / Next.js / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full-Stack Software Developer having experience in building Web and Mobile applications with JavaScript / React.js / Next.js / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink: require("./assets/resume/resume.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/jovaniq1",
   linkedin: "https://www.linkedin.com/in/jovani-casarrubias-938125206/",
-  gmail: "jovaniq1@gmail.com",
+  gmail: "jcasarrubiasq1@gmail.com",
   facebook: "https://www.facebook.com/jovani.casarrubias",
 
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -47,15 +47,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -79,11 +76,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "react.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
@@ -95,7 +92,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "mysql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -127,7 +124,7 @@ const educationInfo = {
       schoolName: "University of Houston",
       logo: require("./assets/images/uh-logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2016 - May 2020",
+      duration: "Graduated Aug 2020",
       desc: "Took courses about Software Engineering, Programming languages and paradigms, Operating Systems, ...",
       descBullets: ["Capstone in Senior Sequence in Software Development."]
     }
@@ -172,11 +169,11 @@ const workExperiences = {
       role: "IT Specialist",
       company: "Kwickpos",
       companylogo: require("./assets/images/kwickpos.jpeg"),
-      date: "May 2020 – Oct 2021",
+      date: "May 2020 – Aug 2020",
       desc: "Identified, troubleshoot, and resolved issues related to computer hardware, software, and related equipment installation and configuration."
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer",
       company: "ARCOS Medical Inc",
       companylogo: require("./assets/images/a.svg"),
       date: "Jan 2020 - May 2020",
@@ -190,7 +187,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -203,7 +200,7 @@ const bigProjects = {
       image: require("./assets/images/kwicktable-logo.png"),
       projectName: "Kwicktable",
       projectDesc:
-        "KwickTable, a wait list and reservation website for restaurants",
+        "KwickTable, a wait list and reservation website for restaurants. The front-end is build with react.js, and for the back-end Php and apache as the server",
       footerLink: [
         {
           name: "Visit Website",
@@ -213,13 +210,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/booking.png"),
+      projectName: "Booking",
+      projectDesc:
+        "A Booking website where I have implemented a full-stack application with Node.js and Express.js for the back-end, React.js for the front-end and as a database MongoDB",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.personalwebapp.com/"
         }
       ]
     }
