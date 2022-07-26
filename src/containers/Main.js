@@ -19,6 +19,7 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+
 import "./Main.scss";
 
 const Main = () => {
@@ -28,6 +29,36 @@ const Main = () => {
     useState(true);
 
   useEffect(() => {
+    //api to count how many times website is view
+
+    const graphqlQuery = {
+      query: `
+    query {
+      portfolio {
+        message
+      }
+    }
+    `
+    };
+    fetch("http://localhost:8080/graphql", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(graphqlQuery)
+    })
+      .then(res => {
+        console.log("response from api views", res);
+        return res.json();
+      })
+      .then(resData => {
+        if (resData.errors) {
+          throw new Error("Fetching posts failed!");
+        }
+      });
+
+    // end of api
+
     if (splashScreen.enabled) {
       const splashTimer = setTimeout(
         () => setIsShowingSplashAnimation(false),
