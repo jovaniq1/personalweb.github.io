@@ -213,11 +213,11 @@ const bigProjects = {
       image: require("./assets/images/booking.png"),
       projectName: "Booking",
       projectDesc:
-        "A Booking website where I have implemented a full-stack application with Node.js and Express.js for the back-end, React.js for the front-end and as a database MongoDB",
+        "A Booking website where I have implemented a full-stack application with Node.js and Express.js for the back-end, React.js for the front-end and as a database MongoDB. Example Account: username:test password:password",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.personalwebapp.com/"
+          url: "https://booking-webapp.herokuapp.com/"
         }
       ]
     }
