@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e1c7b5ca.chunk.css",
-    "main.js": "/static/js/main.7b00c29a.chunk.js",
-    "main.js.map": "/static/js/main.7b00c29a.chunk.js.map",
+    "main.js": "/static/js/main.0aa987d6.chunk.js",
+    "main.js.map": "/static/js/main.0aa987d6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.204cc03d.js",
     "runtime-main.js.map": "/static/js/runtime-main.204cc03d.js.map",
     "static/js/2.568c7c28.chunk.js": "/static/js/2.568c7c28.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.67993e2b.chunk.js": "/static/js/4.67993e2b.chunk.js",
     "static/js/4.67993e2b.chunk.js.map": "/static/js/4.67993e2b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2c6aa492acad3326f341f673b00257f6.js": "/precache-manifest.2c6aa492acad3326f341f673b00257f6.js",
+    "precache-manifest.86e98e4c9cad452aacdc38ef8ac15d7e.js": "/precache-manifest.86e98e4c9cad452aacdc38ef8ac15d7e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.a58369a0.chunk.css.map": "/static/css/3.a58369a0.chunk.css.map",
     "static/css/4.1bee7c9f.chunk.css.map": "/static/css/4.1bee7c9f.chunk.css.map",
@@ -30,7 +30,7 @@
     "static/media/kwicktable-logo.png": "/static/media/kwicktable-logo.86ec94db.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.ee62cb58.webp",
-    "static/media/resume.pdf": "/static/media/resume.48b12cb6.pdf",
+    "static/media/resume.pdf": "/static/media/resume.793fd93d.pdf",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg",
     "static/media/uh-logo.png": "/static/media/uh-logo.e835d1db.png"
@@ -39,6 +39,6 @@
     "static/js/runtime-main.204cc03d.js",
     "static/js/2.568c7c28.chunk.js",
     "static/css/main.e1c7b5ca.chunk.css",
-    "static/js/main.7b00c29a.chunk.js"
+    "static/js/main.0aa987d6.chunk.js"
   ]
 }
