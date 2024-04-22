@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8de3a285.css",
-    "main.js": "/static/js/main.cb642701.js",
+    "main.js": "/static/js/main.a5f605f8.js",
     "static/css/962.4c28a4ac.chunk.css": "/static/css/962.4c28a4ac.chunk.css",
     "static/js/962.dd794779.chunk.js": "/static/js/962.dd794779.chunk.js",
     "static/css/990.566c5a6c.chunk.css": "/static/css/990.566c5a6c.chunk.css",
@@ -10,7 +10,7 @@
     "static/media/bjj.png": "/static/media/bjj.c147b29729d594de8012.png",
     "static/media/uh-logo.png": "/static/media/uh-logo.8a7cd0be0d0f04c23c9c.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/static/media/resume.670dd123a703ddda3f03.pdf",
+    "static/media/resume2024.pdf": "/static/media/resume2024.1860d0b0dbd427155900.pdf",
     "static/media/SpaceGrotesk-VariableFont_wght.ttf": "/static/media/SpaceGrotesk-VariableFont_wght.0ab039e33d5407073fe4.ttf",
     "static/media/kwicktable-logo.png": "/static/media/kwicktable-logo.3e4f392fc901727bb4a0.png",
     "static/media/drone.png": "/static/media/drone.ebf2a8a6ae5457d0f027.png",
@@ -24,7 +24,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.8de3a285.css.map": "/static/css/main.8de3a285.css.map",
-    "main.cb642701.js.map": "/static/js/main.cb642701.js.map",
+    "main.a5f605f8.js.map": "/static/js/main.a5f605f8.js.map",
     "962.4c28a4ac.chunk.css.map": "/static/css/962.4c28a4ac.chunk.css.map",
     "962.dd794779.chunk.js.map": "/static/js/962.dd794779.chunk.js.map",
     "990.566c5a6c.chunk.css.map": "/static/css/990.566c5a6c.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.8de3a285.css",
-    "static/js/main.cb642701.js"
+    "static/js/main.a5f605f8.js"
   ]
 }
